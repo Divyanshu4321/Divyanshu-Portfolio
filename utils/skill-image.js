@@ -27,7 +27,6 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
 import node from '/public/svg/skills/nodejs.svg'
 import express from '/public/svg/skills/express.svg'
-import jquery from '/public/svg/skills/Jquery.svg'
 import ajax from '/public/svg/skills/ajax.svg'
 
 
