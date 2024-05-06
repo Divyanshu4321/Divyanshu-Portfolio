@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Certified In Web Designing & Development",
+    duration: "2023-2024",
+    institution: "From Mantra Institute Ujjain",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Bachelor Of Commerce(Computer Application)",
+    duration: "Final Year Running",
+    institution: "Advance Science & Arts Collage Ujjain",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
-  }
+    title: "Freelancer",
+    duration: "2023",
+    institution: "",
+  },
 ]

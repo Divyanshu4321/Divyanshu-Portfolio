@@ -56,7 +56,7 @@ function Education() {
                       />
                       <div className="flex justify-center">
                         <p className="text-xs sm:text-sm text-[#16f2b3]">
-                          {education.duration}
+                          {education.duration}      
                         </p>
                       </div>
                       <div className="flex items-center gap-x-8 px-3 py-5">
