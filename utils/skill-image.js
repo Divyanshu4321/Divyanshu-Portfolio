@@ -14,7 +14,6 @@ import materialui from '/public/svg/skills/materialui.svg';
 import memsql from '/public/svg/skills/memsql.svg';
 import mongoDB from '/public/svg/skills/mongoDB.svg';
 import mysql from '/public/svg/skills/mysql.svg';
-import nextJS from '/public/svg/skills/nextjs.svg';
 import nuxtJS from '/public/svg/skills/nuxtJS.svg';
 import photoshop from '/public/svg/skills/photoshop.svg';
 import postgresql from '/public/svg/skills/postgresql.svg';
