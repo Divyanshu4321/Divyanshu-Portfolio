@@ -1,20 +1,25 @@
 export const experiences = [
   {
     id: 1,
-    title: 'MERN Stack Web Developer',
-    company: "",
-    duration: "(2023 - Present)"
+    title: 'Twin-Lence',
+    company: "recently complete client work",
+    duration: "(8 May 2024)",
+    demo: "twinlens.in/new-site/index.html"
   },
   {
     id: 2,
-    title: "FullStack Developer",
-    company: "Freelancer",
-    duration: "(2023 - Present)"
+    title: "ujjain-info.xyz",
+    company: "Six Month Experience ",
+    duration: "(15 Dec 2023 - present)",
+    demo: "www.ujjaininfo.xyz/home"
+    
   },
   {
     id: 3,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
-    duration: "(2023 - Present)"
+    title: "Freelancer",
+    company: " All work are mention in resume ",
+    duration: "( 8 May 2024 )",
+    demo: "drive.google.com/file/d/13v7sGKOW5QGVOTwknsfKDwsmH73vxurG/view?usp=sharing"
   }
+
 ]

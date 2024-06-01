@@ -40,6 +40,8 @@ function Experience() {
             <div className="flex flex-col gap-6">
               {
                 experiences.map(experience => (
+                  <a href={`https://${experience.demo}`} target="" rel="noreferrer">
+
                   <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
                     <div className="p-3 relative">
                       <Image
@@ -48,7 +50,7 @@ function Experience() {
                         width={1080}
                         height={200}
                         className="absolute bottom-0 opacity-80"
-                      />
+                        />
                       <div className="flex justify-center">
                         <p className="text-xs sm:text-sm text-[#16f2b3]">
                           {experience.duration}
@@ -69,6 +71,7 @@ function Experience() {
                       </div>
                     </div>
                   </GlowCard>
+                  </a>
                 ))
               }
             </div>

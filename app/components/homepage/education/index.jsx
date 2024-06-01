@@ -45,7 +45,9 @@ function Education() {
             <div className="flex flex-col gap-6">
               {
                 educations.map(education => (
+                    <a href={`${education.demo}`} target="_blank" rel="noreferrer">
                   <GlowCard key={education.id} identifier={`education-${education.id}`}>
+
                     <div className="p-3 relative text-white">
                       <Image
                         src="/blur-23.svg"
@@ -53,7 +55,7 @@ function Education() {
                         width={1080}
                         height={200}
                         className="absolute bottom-0 opacity-80"
-                      />
+                        />
                       <div className="flex justify-center">
                         <p className="text-xs sm:text-sm text-[#16f2b3]">
                           {education.duration}      
@@ -72,12 +74,14 @@ function Education() {
                       </div>
                     </div>
                   </GlowCard>
+                  </a>
                 ))
               }
             </div>
           </div>
         </div>
       </div>
+
     </div>
   );
 };
