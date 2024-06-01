@@ -40,7 +40,7 @@ function Experience() {
             <div className="flex flex-col gap-6">
               {
                 experiences.map(experience => (
-                  <a href={`https://${experience.demo}`} target="" rel="noreferrer">
+                  <a key={experience.id} href={`https://${experience.demo}`} target="" rel="noreferrer">
 
                   <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
                     <div className="p-3 relative">
