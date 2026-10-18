@@ -23,7 +23,7 @@ export default function Navbar() {
             {links.map(([label, href]) => <a key={href} href={href}>{label}</a>)}
           </Box>
           <Box className="nav-actions">
-            <Button className="gradient-button resume-top" startIcon={<DownloadRoundedIcon />} component="a" href="/" download>Get Resume</Button>
+            <Button className="gradient-button resume-top" startIcon={<DownloadRoundedIcon />} component="a" href="https://drive.google.com/file/d/15sAB_QDoQ1kM6a2IhCCDQwwD3YdcDzEp/view?usp=sharing" download>Get Resume</Button>
             <IconButton aria-label="LinkedIn" component="a" href="https://www.linkedin.com/in/divyanshu-parmar-944088281/" target="_blank" rel="noreferrer"><LinkedInIcon /></IconButton>
             <IconButton aria-label="GitHub" component="a" href="https://github.com/Divyanshu4321" target="_blank" rel="noreferrer"><GitHubIcon /></IconButton>
             <IconButton className="mobile-menu" onClick={() => setOpen(true)} aria-label="Open menu"><MenuRoundedIcon /></IconButton>

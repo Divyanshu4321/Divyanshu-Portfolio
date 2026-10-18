@@ -16,11 +16,11 @@ const projects = [
   {
     number: "01", title: "FarmTrac", url: "https://farmtrac.krishify.com", subtitle: "Large-scale AgriTech & CRM Platform",
     description: "A comprehensive platform for farmer management, cluster operations, advisory, finance and analytics. Built 40+ custom modules with reusable components and optimized performance for large datasets.",
-    features: ["Dashboard & Analytics", "Team Tracker", "Analyse", "Finance", "Cluster Management", "Advisory"],
-    stack: ["React.js", "Next.js", "Material UI", "Redux Toolkit", "REST APIs", "Charts"]
+    features: ["Dashboard & Analytics", "Team Tracker", "Analyse", "Finance", "Cluster Management", "Advisory","etc"],
+    stack: ["React.js", "Next.js", "Material UI", "Redux","Axios", "REST APIs", "Charts"]
   },
   {
-    number: "02", title: "FarmTrac", highlight: "Connect", url: "https://farmtrac-connect.com", subtitle: "Calling, Lead Management & Campaign Platform",
+    number: "02", title: "FarmTrac", highlight: "Connect", url: "https://farmtrac-connect.krishify.com", subtitle: "Calling, Lead Management & Campaign Platform",
     description: "A calling and CRM platform for agricultural outreach. Enables teams to manage leads, run inbound and outbound campaigns, track call activity and allocate agents efficiently.",
     features: ["Lead Management", "Campaigns", "Call Tracking", "Agent Allocation", "Analytics & Reports", "CRM"],
     stack: ["React.js", "Material UI", "REST APIs", "Axios", "Socket.io"],
@@ -34,7 +34,7 @@ const projects = [
   }
 ];
 
-const stats = [["1.9+", "Years Experience"], ["3", "Major Projects"], ["40+", "Custom Modules"], ["100%", "Frontend Focus"]];
+const stats = [["1.11+", "Years Experience"], ["3", "Major Projects"], ["40+", "Custom Modules"], ["100%", "Frontend Focus"]];
 
 export default function HomePage() {
   return (
@@ -45,9 +45,9 @@ export default function HomePage() {
         <motion.div className="hero-copy" initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: .6 }}>
           <div className="eyebrow">Frontend Developer</div>
           <h1>I’m Divyanshu Parmar.<br />I build <span>high-performance React & Next.js</span> web applications.</h1>
-          <p>Frontend-focused MERN Stack Developer with 1.9+ years of experience crafting scalable CRMs, CMS, and AgriTech dashboards with modern web technologies.</p>
+          <p>Frontend-focused MERN Stack Developer with 1.11+ years of experience crafting scalable CRMs, CMS, and AgriTech dashboards with modern web technologies.</p>
           <div className="hero-meta"><span><CalendarMonthRoundedIcon /> 1 Year 11 Months Experience</span><span><LocationOnRoundedIcon /> Indore / Ujjain, India</span></div>
-          <div className="hero-actions"><Button className="gradient-button" component="a" href="/resume.pdf" download>↓ &nbsp; Download Resume</Button><Button className="outline-button" component="a" href="#contact">Contact Me <ArrowForwardRoundedIcon /></Button></div>
+          <div className="hero-actions"><Button className="gradient-button" component="a" href="https://drive.google.com/file/d/1E-_jUl7u8oWhqauyFX2Zzkm9d7Y8EEFX/view?usp=sharing" download>↓ &nbsp; Download Resume</Button><Button className="outline-button" component="a" href="#contact">Contact Me <ArrowForwardRoundedIcon /></Button></div>
         </motion.div>
         <motion.div className="hero-aside" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .7, delay: .15 }}>
           <div className="code-card"><div className="code-dots"><i/><i/><i/></div><pre><span>const</span> dev = {"{"}{"\n"}  focus: <em>'Frontend Development'</em>,{"\n"}  tech: [<em>'React', 'Next.js', 'MUI'</em>],{"\n"}  build: <em>'Scalable Web Applications'</em>,{"\n"}  passion: <em>'Problem Solving'</em>,{"\n"}  learning: <em>'Always'</em>,{"\n"}{"}"}</pre></div>
